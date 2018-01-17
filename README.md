@@ -3,4 +3,6 @@ noar
 ====
 
 R interface to the National Observatory of Athens weather stations
-[data](www.meteo.gr)
+[data](www.meteo.gr).
+
+This package is under development.
