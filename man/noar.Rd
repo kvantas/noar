@@ -8,8 +8,7 @@
 \alias{noar-package}
 \title{noar: Interface to National Observatory of Athens weather stations network}
 \description{
-R interface to the National Observatory of Athens weather stations
-network http://www.meteo.gr/.
+R interface to the National Observatory of Athens weather stations data
 }
 \section{Data Sources}{
 
@@ -17,6 +16,14 @@ network http://www.meteo.gr/.
 The data are retrieved from http://www.meteo.gr/
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/kvantas/noar}
+  \item Report bugs at \url{https://github.com/kvantas/noar/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Konstantinos Vantas \email{kon.vantas@gmail.com} (0000-0001-6387-8791)
 
