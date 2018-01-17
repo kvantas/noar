@@ -1,0 +1,21 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# noar
+
+R interface to the National Observatory of Athens weather stations [data](www.meteo.gr).
+
+This package is under development.
