@@ -11,7 +11,13 @@ Status](https://ci.appveyor.com/api/projects/status/github/kvantas/noar?branch=m
 version](https://img.shields.io/badge/R%3E%3D-3.4.0-6666ff.svg)](https://cran.r-project.org/)
 [![packageversion](https://img.shields.io/badge/Package%20version-0.0.0.9000-orange.svg?style=flat-square)](https://github.com/kvantas/noar)
 
+<!-- Short description of the package -->
 R interface to the National Observatory of Athens weather stations
-[data](www.meteo.gr).
+[data](http://stratus.meteo.noa.gr/front).
 
 This package is under development.
+
+<!-- * Installation instructions -->
+<!-- * Brief demonstration usage -->
+<!-- * If applicable, how the package compares to other similar packages and/or how it relates to other packages -->
+<!-- * Citation information -->

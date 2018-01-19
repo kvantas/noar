@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 [![packageversion](https://img.shields.io/badge/Package%20version-0.0.0.9000-orange.svg?style=flat-square)](https://github.com/kvantas/noar)
 
 <!-- Short description of the package -->
-R interface to the National Observatory of Athens weather stations [data](www.meteo.gr).
+R interface to the National Observatory of Athens weather stations [data](http://stratus.meteo.noa.gr/front).
 
 This package is under development.
 

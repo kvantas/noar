@@ -4,8 +4,8 @@ Version: 0.0.0.9000
 Authors@R: person("Konstantinos", "Vantas", role = c("aut", "cre"),
   email = "kon.vantas@gmail.com",
   comment = c(ORCID = "0000-0001-6387-8791"))
-Description: R interface to the National Observatory of Athens weather stations
-  network <http://www.meteo.gr/>.
+Description: R interface to the data of National Observatory of Athens weather 
+  stations network <http://www.meteo.gr/>.
 Depends: R (>= 3.4)
 License: MIT + file LICENSE
 Encoding: UTF-8
