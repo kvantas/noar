@@ -23,9 +23,35 @@ knitr::opts_chunk$set(
 [![packageversion](https://img.shields.io/badge/Package%20version-0.0.0.9000-orange.svg?style=flat-square)](https://github.com/kvantas/noar)
 
 <!-- Short description of the package -->
-R interface to the National Observatory of Athens weather stations [data](http://stratus.meteo.noa.gr/front).
+R interface to the National Observatory of Athens weather stations [data](http://www.noa.gr).
 
 This package is under development.
+
+# Data sources
+
+* http://stratus.meteo.noa.gr/front
+
+# Installation
+
+You can install the development version from GitHub with:
+
+```{r install_packages}
+# install.packages("devtools")
+devtools::install_github("kvantas/noar")
+```
+
+# Example
+
+The `noa_get_latest` function returns a tibble of the latest weather observations.
+
+```{r noa_get_latest}
+# load libraries
+library(noar)
+library(tibble)
+noa_get_latest()
+
+```
+
 
 <!-- * Installation instructions -->
 <!-- * Brief demonstration usage -->
