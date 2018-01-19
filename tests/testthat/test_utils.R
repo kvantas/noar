@@ -8,9 +8,8 @@ test_that("test_url function return error if path on host does not exists", {
   expect_error(test_url("www.google.com/ Bad Request"))
 })
 
-#
-context("Translitetation")
 
+context("Translitetation")
 test_that("trasnlit_all returns a tibble", {
 
   df <- data.frame(x1 = c("te", "xc"),

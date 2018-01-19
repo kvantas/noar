@@ -19,6 +19,15 @@ noa_get_latest <- function() {
   html <- xml2::read_html(noa_url, encoding = "UTF-8")
   tables <- rvest::html_nodes(html, "table")
   obs_table <- rvest::html_table(tables[1], fill = TRUE)[[1]]
-  tibble::as.tibble(obs_table)
+  obs_table <- trasnlit_all(obs_table)
+
+  # translate columns names
+  if (length(names(obs_table)) == 10){
+    names(obs_table) <- c("station", "time", "temperature", "wind_speed",
+                          "humidity", "pressure", "wind_speed_max",
+                        "temp_low", "temp_high", "precipitation")
+  }
+
+  tibble::as.tibble(trasnlit_all(obs_table))
 
 }

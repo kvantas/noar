@@ -43,21 +43,21 @@ observations.
 library(noar)
 library(tibble)
 noa_get_latest()
-#> # A tibble: 305 x 10
-#>    `Sta<U+03B8>µ<U+03CC><U+03C2>`   `<U+038F><U+03C1>a` `Te<U+03C1>µ<U+03BF>- <U+03BA><U+03C1>as<U+03AF>a°~ `<U+0386><U+03BD>eµ<U+03BF><U+03C2>km/h` `<U+03A5><U+03B3><U+03C1>a- s<U+03AF>a%` `<U+03A0><U+03AF>es<U+03B7>hPa`
-#>    <chr>       <chr>            <dbl>        <int> <chr>             <int>
-#>  1 <U+0391>G. <U+03A0><U+0391><U+039D><U+03A4><U+0395>S~ 18:20             9.80            3 71%                1017
-#>  2 <U+0391>G. <U+03A0><U+0391><U+03A1><U+0391>S<U+039A>~ 18:20            11.1             5 51%                1015
-#>  3 <U+0391>G. <U+03A0><U+0391><U+03A5><U+039B><U+039F>S~ 18:20             4.10            6 66%                1015
-#>  4 <U+0391>G.<U+039A><U+03A5><U+03A1><U+0399><U+0391><U+039A><U+0397>~ 18:20             6.90            3 76%                1020
-#>  5 <U+0391>G<U+0399><U+0391> <U+039B><U+0391><U+03A1><U+0399>S~ 18:20             7.60           10 67%                1015
-#>  6 <U+0391>G<U+0399><U+039F><U+0399> T<U+0395><U+039F><U+0394>~ 18:20            10.3             3 77%                1015
-#>  7 <U+0391>G<U+0399><U+039F>S <U+039D><U+0399><U+039A><U+039F>~ 18:20            13.2             2 54%                1020
-#>  8 <U+0391>G<U+03A1><U+0399><U+039D><U+0399><U+039F>     18:20             8.10            2 79%                1016
-#>  9 <U+0391>T<U+0397><U+039D><U+0391>-G<U+039A><U+0391><U+0396><U+0399> 18:20            12.6             0 41%                1017
-#> 10 <U+0391><U+0399>G<U+0399><U+039D><U+0391>      18:10            11.7             3 54%                1012
-#> # ... with 295 more rows, and 4 more variables: `<U+0386><U+03BD>eµ<U+03BF><U+03C2>Max km/h` <chr>,
-#> #   `Te<U+03C1>µ.Low °C` <dbl>, `Te<U+03C1>µ.High °C` <dbl>, `<U+0392><U+03C1><U+03BF><U+03C7><U+03AE> mm` <dbl>
+#> # A tibble: 306 x 10
+#>    station   time  temperature wind_speed humidity pressure wind_speed_max
+#>    <chr>     <chr> <chr>       <chr>      <chr>    <chr>    <chr>         
+#>  1 AG. PANT~ 18:30 9.6         0          73%      1018     34            
+#>  2 AG. PARA~ 18:30 10.9        3          52%      1015     45            
+#>  3 AG. PAUL~ 18:30 4.3         6          66%      1015     44            
+#>  4 AG.KYRIA~ 18:20 6.9         3          76%      1020     19            
+#>  5 AGIA LAR~ 18:20 7.6         10         67%      1015     26            
+#>  6 AGIOI TH~ 18:20 10.3        3          77%      1015     35            
+#>  7 AGIOS NI~ 18:20 13.2        2          54%      1020     48            
+#>  8 AGRINIO   18:20 8.1         2          79%      1016     15            
+#>  9 ATHENA-N~ 18:30 12.6        0          42%      1017     37            
+#> 10 AIGINA    18:20 11.8        3          55%      1012     31            
+#> # ... with 296 more rows, and 3 more variables: temp_low <chr>, temp_high
+#> #   <chr>, precipitation <chr>
 ```
 
 <!-- * Installation instructions -->
