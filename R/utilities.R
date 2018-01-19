@@ -13,5 +13,5 @@ test_url <- function(url) {
     stop("The server for that data source did not respond successfully.", call. = FALSE)
   }
 
-  return(NULL)
+  return(200)
 }
