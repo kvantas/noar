@@ -6,3 +6,4 @@
 ^README-.*\.png$
 ^appveyor\.yml$
 ^CONDUCT\.md$
+^data-raw$
